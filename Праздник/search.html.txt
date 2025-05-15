@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск локаций | Праздник в каждый дом</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Та же шапка, что и в index.html -->
+    </header>
+
+    <main>
+        <h1>Доступные локации</h1>
+        <div class="location-card">
+            <h3>Детский парк "Сказка"</h3>
+            <p><strong>Адрес:</strong> Москва, ул. Праздничная, 1</p>
+            <p><strong>Дата:</strong> 15.06.2024</p>
+            <p><strong>Свободных зон:</strong> 5</p>
+            <a href="seat.html" class="btn">Выбрать зону</a>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Подвал как в index.html -->
+    </footer>
+</body>
+</html>

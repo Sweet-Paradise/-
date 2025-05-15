@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Праздник в каждый дом</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="search.html">Поиск локаций</a></li>
+                <li><a href="booking.html">Бронирование</a></li>
+                <li><a href="http://xxxxxx-m1.wsr.ru/return">Возврат</a></li>
+                <li><a href="http://xxxxxx-m1.wsr.ru/feedback">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Блок с поиском -->
+    <section class="search-section">
+        <h1>Организуем незабываемый праздник для ваших детей!</h1>
+        <form action="search.html" method="GET">
+            <select name="region" required>
+                <option value="" disabled selected>Выберите регион</option>
+                <option value="Москва">Москва</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+            </select>
+            <input type="date" name="date" required>
+            <input type="number" name="adults" placeholder="Взрослые" min="1" max="50" required>
+            <input type="number" name="children" placeholder="Дети" min="1" max="50" required>
+            <button type="submit">Найти локации</button>
+        </form>
+    </section>
+
+    <!-- Алгоритм бронирования (анимация) -->
+    <section class="steps">
+        <div class="step" data-animation="fadeIn">
+            <span>1</span>
+            <p>Выберите дату и гостей</p>
+        </div>
+        <div class="step" data-animation="fadeIn">
+            <span>2</span>
+            <p>Найдите подходящую локацию</p>
+        </div>
+        <div class="step" data-animation="fadeIn">
+            <span>3</span>
+            <p>Забронируйте зону</p>
+        </div>
+    </section>
+
+    <!-- Акции -->
+    <section class="promo">
+        <h2>Акции</h2>
+        <div class="promo-card">
+            <img src="assets/images/promo1.jpg" alt="Акция 1">
+            <h3>Скидка 20% на аниматоров</h3>
+            <p>При бронировании до 30 июня</p>
+            <button>Подробнее</button>
+        </div>
+    </section>
+
+    <!-- Подписка -->
+    <section class="subscribe">
+        <h2>Подпишитесь на закрытые акции</h2>
+        <form>
+            <input type="email" placeholder="Ваш Email" required>
+            <button type="submit">Подписаться</button>
+        </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>Телефон: 8 (800) 111-20-20</p>
+        <nav>
+            <a href="http://xxxxxx-m1.wsr.ru/return">Возврат</a>
+            <a href="http://xxxxxx-m1.wsr.ru/feedback">Обратная связь</a>
+        </nav>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
